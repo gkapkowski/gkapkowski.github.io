@@ -1,0 +1,76 @@
+/**
+ * Copyright (c)2014, BLUE-Light
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @filesource
+ * @copyright       		Copyright (c) 2014, BLUE-Light
+ * @backenddeveloper
+ * @frontedndeveloper		Krzysztof Safjanowski
+ * @license         		http://www.opensource.org/licenses/mit-license.php The MIT License
+ */
+
+
+/* wyzerowanie domyslnych wartosci */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, img, ins, kbd, q, s, samp, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+
+/* body */
+body {font: 0.625em/1em arial, helvetica, tahoma sans-serif; background: #0e2245; color: #fff;}
+	body .container {margin: 0 auto; padding: 0 50px; width: 860px;}
+
+
+/* dostepnosc */
+#quick-navigation, .accessibility, .hidden, hr {position: absolute; left: -666em; top: 0; margin-left: -666em; overflow: hidden;}
+
+
+/* linki */
+a {text-decoration: underline; color: #004a80;}
+	a:hover {text-decoration: none; color: #fff;}
+
+/* naglowek */
+#header {background: url(img/header.jpg) repeat-x;}
+	#header .container {position: relative; height: 84px;}
+
+
+	#header-logo {width: 120px; height: 67px;}
+		#header-logo a {display: block; width: 200px; height: 67px; text-indent: -666em; background: url(img/header-logo.c.png) no-repeat;}
+
+
+/* tresc */
+#content {margin: -15px 0 0; background: #163363 url(img/content.jpg) repeat-x;}
+
+
+	#content-details {overflow: hidden; padding: 74px 0 32px; background: #163363 url(img/content-details.jpg) 50% 0 no-repeat;}
+
+
+	#content-details-presentation {margin: 0 0 1.62em;}
+		#content-details-presentation .presentation-header {margin: 0.405em 0; font-size: 2.4em; line-height: 1.62em;}
+		#content-details-presentation .presentation-body {margin: 0.56em 0 0; padding: 14px 13px; width: 832px; height: 180px; font-size: 1.4em; line-height: 1.62em;}
+			#content-details-presentation .presentation-body img {display: block;}
+
+
+	#content-details-contact {padding: 1.62em 0 0; background: url(img/content-details-contact.gif) repeat-x;}
+		#content-details-contact .contact-header {margin: 0.405em 0; font-size: 2.4em; line-height: 1.62em;}
+		#content-details-contact .contact-body {margin: 0.405em 0 1.62em; font-size: 1.4em; line-height: 1.62em;}
+
+
+	#content-details-main {float: left; width: 500px;}
+		#content-details-main .main-header {margin: 0.405em 0; font-size: 2.4em; line-height: 1.62em;}
+		#content-details-main .main-body {margin: 0.405em 0 1.62em; font-size: 1.4em; line-height: 1.62em;}
+
+
+	#content-details-sidebar {float: right; width: 320px;}
+		#content-details-sidebar .sidebar-header {margin: 0.405em 0; font-size: 2.4em; line-height: 1.62em;}
+		#content-details-sidebar .sidebar-body {margin: 0.405em 0 1.62em; font-size: 1.4em; line-height: 1.62em;}
+
+/* stopka */
+#footer {border-top: 2px solid #0d1e3a;}
+
+	#footer-copyright {padding: 2.14em 0; font-size: 1.4em; line-height: 1em;}
